@@ -1,0 +1,233 @@
+<html>
+<head>
+<title>TestNG:  ChromeBrowserTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromeBrowserTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed May 11 08:56:57 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>8 seconds (8568 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Parameterization_CrossBrowser.AllBrowserTesting.CrossBrowserTesting()'><b>CrossBrowserTesting</b><br>Test class: Parameterization_CrossBrowser.AllBrowserTesting<br>Parameters: chrome</td>
+<td></td>
+<td>5</td>
+<td>Parameterization_CrossBrowser.AllBrowserTesting@1f28c152</td></tr>
+<tr>
+<td title='Parameterization_CrossBrowser.AllBrowserTesting.CrossBrowserTesting()'><b>CrossBrowserTesting</b><br>Test class: Parameterization_CrossBrowser.AllBrowserTesting<br>Parameters: firefox</td>
+<td></td>
+<td>11</td>
+<td>Parameterization_CrossBrowser.AllBrowserTesting@6321e813</td></tr>
+<tr>
+<td title='Parameterization_CrossBrowser.AllBrowserTesting.clickLoginButton()'><b>clickLoginButton</b><br>Test class: Parameterization_CrossBrowser.AllBrowserTesting<br/>
+<a href="#Output-1732020702" onClick='toggleBox("Output-1732020702", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1732020702" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1732020702">
+clickLoginButton<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Parameterization_CrossBrowser.AllBrowserTesting@1f28c152</td></tr>
+<tr>
+<td title='Parameterization_CrossBrowser.AllBrowserTesting.clickLoginButton()'><b>clickLoginButton</b><br>Test class: Parameterization_CrossBrowser.AllBrowserTesting<br/>
+<a href="#Output-1878518667" onClick='toggleBox("Output-1878518667", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1878518667" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1878518667">
+clickLoginButton<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Parameterization_CrossBrowser.AllBrowserTesting@6321e813</td></tr>
+<tr>
+<td title='Parameterization_CrossBrowser.AllBrowserTesting.teardown()'><b>teardown</b><br>Test class: Parameterization_CrossBrowser.AllBrowserTesting<br/>
+<a href="#Output-2016369981" onClick='toggleBox("Output-2016369981", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2016369981" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2016369981">
+Browser is closed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Parameterization_CrossBrowser.AllBrowserTesting@1f28c152</td></tr>
+<tr>
+<td title='Parameterization_CrossBrowser.AllBrowserTesting.teardown()'><b>teardown</b><br>Test class: Parameterization_CrossBrowser.AllBrowserTesting<br/>
+<a href="#Output-20565456" onClick='toggleBox("Output-20565456", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-20565456" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-20565456">
+Browser is closed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Parameterization_CrossBrowser.AllBrowserTesting@6321e813</td></tr>
+<tr>
+<td title='Parameterization_CrossBrowser.AllBrowserTesting.verifyCurrentUrl()'><b>verifyCurrentUrl</b><br>Test class: Parameterization_CrossBrowser.AllBrowserTesting<br/>
+<a href="#Output-382387702" onClick='toggleBox("Output-382387702", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-382387702" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-382387702">
+verifyCurrentUrl<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Parameterization_CrossBrowser.AllBrowserTesting@1f28c152</td></tr>
+<tr>
+<td title='Parameterization_CrossBrowser.AllBrowserTesting.verifyCurrentUrl()'><b>verifyCurrentUrl</b><br>Test class: Parameterization_CrossBrowser.AllBrowserTesting<br/>
+<a href="#Output-1925428296" onClick='toggleBox("Output-1925428296", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1925428296" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1925428296">
+verifyCurrentUrl<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Parameterization_CrossBrowser.AllBrowserTesting@6321e813</td></tr>
+<tr>
+<td title='Parameterization_CrossBrowser.AllBrowserTesting.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: Parameterization_CrossBrowser.AllBrowserTesting<br/>
+<a href="#Output-1385969697" onClick='toggleBox("Output-1385969697", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1385969697" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1385969697">
+verifyPageTitle<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Parameterization_CrossBrowser.AllBrowserTesting@1f28c152</td></tr>
+<tr>
+<td title='Parameterization_CrossBrowser.AllBrowserTesting.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: Parameterization_CrossBrowser.AllBrowserTesting<br/>
+<a href="#Output-1261421447" onClick='toggleBox("Output-1261421447", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1261421447" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1261421447">
+verifyPageTitle<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Parameterization_CrossBrowser.AllBrowserTesting@6321e813</td></tr>
+<tr>
+<td title='Parameterization_CrossBrowser.AllBrowserTesting.verifyPasswordField()'><b>verifyPasswordField</b><br>Test class: Parameterization_CrossBrowser.AllBrowserTesting<br/>
+<a href="#Output-1791469182" onClick='toggleBox("Output-1791469182", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1791469182" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1791469182">
+verifyPasswordField<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Parameterization_CrossBrowser.AllBrowserTesting@1f28c152</td></tr>
+<tr>
+<td title='Parameterization_CrossBrowser.AllBrowserTesting.verifyPasswordField()'><b>verifyPasswordField</b><br>Test class: Parameterization_CrossBrowser.AllBrowserTesting<br/>
+<a href="#Output-1889167539" onClick='toggleBox("Output-1889167539", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1889167539" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1889167539">
+verifyPasswordField<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Parameterization_CrossBrowser.AllBrowserTesting@6321e813</td></tr>
+<tr>
+<td title='Parameterization_CrossBrowser.AllBrowserTesting.verifyUsernameField()'><b>verifyUsernameField</b><br>Test class: Parameterization_CrossBrowser.AllBrowserTesting<br/>
+<a href="#Output-467315284" onClick='toggleBox("Output-467315284", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-467315284" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-467315284">
+verifyUsernameField<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Parameterization_CrossBrowser.AllBrowserTesting@1f28c152</td></tr>
+<tr>
+<td title='Parameterization_CrossBrowser.AllBrowserTesting.verifyUsernameField()'><b>verifyUsernameField</b><br>Test class: Parameterization_CrossBrowser.AllBrowserTesting<br/>
+<a href="#Output-434621637" onClick='toggleBox("Output-434621637", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-434621637" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-434621637">
+verifyUsernameField<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Parameterization_CrossBrowser.AllBrowserTesting@6321e813</td></tr>
+</table><p>
+</body>
+</html>

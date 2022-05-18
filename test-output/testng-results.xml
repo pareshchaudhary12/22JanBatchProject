@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[verifyFacebookLoginPageLogo]]>
+    </line>
+    <line>
+      <![CDATA[verifyFacebookLoginPageTagline]]>
+    </line>
+    <line>
+      <![CDATA[verifyFacebookLoginPageForgotPasswordLink]]>
+    </line>
+    <line>
+      <![CDATA[verifyFacebookLoginPageForgotPasswordLink]]>
+    </line>
+    <line>
+      <![CDATA[Sign Up]]>
+    </line>
+    <line>
+      <![CDATA[Log In]]>
+    </line>
+    <line>
+      <![CDATA[Messenger]]>
+    </line>
+    <line>
+      <![CDATA[Facebook Lite]]>
+    </line>
+    <line>
+      <![CDATA[Watch]]>
+    </line>
+    <line>
+      <![CDATA[Places]]>
+    </line>
+    <line>
+      <![CDATA[Games]]>
+    </line>
+    <line>
+      <![CDATA[Marketplace]]>
+    </line>
+    <line>
+      <![CDATA[Facebook Pay]]>
+    </line>
+    <line>
+      <![CDATA[Oculus]]>
+    </line>
+    <line>
+      <![CDATA[Portal]]>
+    </line>
+    <line>
+      <![CDATA[Instagram]]>
+    </line>
+    <line>
+      <![CDATA[Bulletin]]>
+    </line>
+    <line>
+      <![CDATA[Local]]>
+    </line>
+    <line>
+      <![CDATA[Fundraisers]]>
+    </line>
+    <line>
+      <![CDATA[Services]]>
+    </line>
+    <line>
+      <![CDATA[Voting Information Centre]]>
+    </line>
+    <line>
+      <![CDATA[Groups]]>
+    </line>
+    <line>
+      <![CDATA[About]]>
+    </line>
+    <line>
+      <![CDATA[Create ad]]>
+    </line>
+    <line>
+      <![CDATA[Create Page]]>
+    </line>
+    <line>
+      <![CDATA[Developers]]>
+    </line>
+    <line>
+      <![CDATA[Careers]]>
+    </line>
+    <line>
+      <![CDATA[Privacy]]>
+    </line>
+    <line>
+      <![CDATA[Cookies]]>
+    </line>
+    <line>
+      <![CDATA[AdChoices]]>
+    </line>
+    <line>
+      <![CDATA[Terms]]>
+    </line>
+    <line>
+      <![CDATA[Help]]>
+    </line>
+    <line>
+      <![CDATA[Settings]]>
+    </line>
+    <line>
+      <![CDATA[Activity log]]>
+    </line>
+    <line>
+      <![CDATA[verifyFacebookLoginPageFooterLinkSize]]>
+    </line>
+    <line>
+      <![CDATA[setFacebookLoginPageUserName]]>
+    </line>
+    <line>
+      <![CDATA[setFacebookLoginPagePassword]]>
+    </line>
+    <line>
+      <![CDATA[clickFacebookLoginPageLoginBtn]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12418" started-at="2022-05-17T08:30:26 IST" finished-at="2022-05-17T08:30:39 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12418" started-at="2022-05-17T08:30:26 IST" finished-at="2022-05-17T08:30:39 IST">
+      <class name="Pom_PagefactoryPractice.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Pom_PagefactoryPractice.LoginTest@65e2dbf3]" name="setup" is-config="true" duration-ms="7591" started-at="2022-05-17T08:30:27 IST" finished-at="2022-05-17T08:30:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FacebookLoinPageTest()[pri:0, instance:Pom_PagefactoryPractice.LoginTest@65e2dbf3]" name="FacebookLoinPageTest" duration-ms="3811" started-at="2022-05-17T08:30:34 IST" finished-at="2022-05-17T08:30:38 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[verifyFacebookLoginPageLogo]]>
+            </line>
+            <line>
+              <![CDATA[verifyFacebookLoginPageTagline]]>
+            </line>
+            <line>
+              <![CDATA[verifyFacebookLoginPageForgotPasswordLink]]>
+            </line>
+            <line>
+              <![CDATA[verifyFacebookLoginPageForgotPasswordLink]]>
+            </line>
+            <line>
+              <![CDATA[Sign Up]]>
+            </line>
+            <line>
+              <![CDATA[Log In]]>
+            </line>
+            <line>
+              <![CDATA[Messenger]]>
+            </line>
+            <line>
+              <![CDATA[Facebook Lite]]>
+            </line>
+            <line>
+              <![CDATA[Watch]]>
+            </line>
+            <line>
+              <![CDATA[Places]]>
+            </line>
+            <line>
+              <![CDATA[Games]]>
+            </line>
+            <line>
+              <![CDATA[Marketplace]]>
+            </line>
+            <line>
+              <![CDATA[Facebook Pay]]>
+            </line>
+            <line>
+              <![CDATA[Oculus]]>
+            </line>
+            <line>
+              <![CDATA[Portal]]>
+            </line>
+            <line>
+              <![CDATA[Instagram]]>
+            </line>
+            <line>
+              <![CDATA[Bulletin]]>
+            </line>
+            <line>
+              <![CDATA[Local]]>
+            </line>
+            <line>
+              <![CDATA[Fundraisers]]>
+            </line>
+            <line>
+              <![CDATA[Services]]>
+            </line>
+            <line>
+              <![CDATA[Voting Information Centre]]>
+            </line>
+            <line>
+              <![CDATA[Groups]]>
+            </line>
+            <line>
+              <![CDATA[About]]>
+            </line>
+            <line>
+              <![CDATA[Create ad]]>
+            </line>
+            <line>
+              <![CDATA[Create Page]]>
+            </line>
+            <line>
+              <![CDATA[Developers]]>
+            </line>
+            <line>
+              <![CDATA[Careers]]>
+            </line>
+            <line>
+              <![CDATA[Privacy]]>
+            </line>
+            <line>
+              <![CDATA[Cookies]]>
+            </line>
+            <line>
+              <![CDATA[AdChoices]]>
+            </line>
+            <line>
+              <![CDATA[Terms]]>
+            </line>
+            <line>
+              <![CDATA[Help]]>
+            </line>
+            <line>
+              <![CDATA[Settings]]>
+            </line>
+            <line>
+              <![CDATA[Activity log]]>
+            </line>
+            <line>
+              <![CDATA[verifyFacebookLoginPageFooterLinkSize]]>
+            </line>
+            <line>
+              <![CDATA[setFacebookLoginPageUserName]]>
+            </line>
+            <line>
+              <![CDATA[setFacebookLoginPagePassword]]>
+            </line>
+            <line>
+              <![CDATA[clickFacebookLoginPageLoginBtn]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FacebookLoinPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Pom_PagefactoryPractice.LoginTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="939" started-at="2022-05-17T08:30:38 IST" finished-at="2022-05-17T08:30:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Pom_PagefactoryPractice.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
